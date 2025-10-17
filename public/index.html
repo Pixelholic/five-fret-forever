@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGPU Guitar Hero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>WebGPU Guitar Hero</h1>
+
+<div id="loader">
+    <p>Select song files:</p>
+    <label for="chartInput">Chart File (.chart):</label>
+    <input type="file" id="chartInput" accept=".chart" />
+    <br />
+    <label for="audioInput">Audio File (.ogg, .mp3):</label>
+    <input type="file" id="audioInput" accept=".ogg,.mp3" />
+    <br />
+    <button id="loadSongBtn">Load and Play Song</button>
+</div>
+
+<div id="canvas-container">
+    <canvas id="gameCanvas" width="500" height="600"></canvas>
+    <canvas id="uiCanvas" width="500" height="600"></canvas>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
