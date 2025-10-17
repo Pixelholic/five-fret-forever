@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "21b6f0e8e8735cd7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1451012abcc60e55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c2ef0af9d797f86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aesthetic Choices.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aesthetic Choices"
+            }
+          }
+        ]
+      },
+      {
+        "id": "9948481f24a74466",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2c50ce44cc5533c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31b086eebb0b8bd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8df58e24e4ddd77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a74f6902f5873936",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "90b10c9d75f7a260",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "613a2b29f7ebd9f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a4ce07756261f4b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2226733ebc034a53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65389c2d60eda36",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Aesthetic Choices.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Aesthetic Choices"
+            }
+          },
+          {
+            "id": "c8d84f134375cbb9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Aesthetic Choices.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Aesthetic Choices"
+            }
+          },
+          {
+            "id": "b42efec024e5052c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9754e785191c0b9b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Aesthetic Choices.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Aesthetic Choices"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5c2ef0af9d797f86",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "Aesthetic Choices.md"
+  ]
+}
