@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=3 uid="uid://dau4awc6podrw"]
+
+[ext_resource type="Script" uid="uid://c87opn7a5ajn8" path="res://scripts/chart.gd" id="1_ycapl"]
+
+[node name="Chartselection" type="Node2D"]
+
+[node name="PathLineEdit" type="LineEdit" parent="."]
+offset_right = 298.0
+offset_bottom = 31.0
+placeholder_text = "Chart Path Here"
+script = ExtResource("1_ycapl")
+
+[node name="BrowseButton" type="Button" parent="PathLineEdit"]
+layout_mode = 0
+offset_left = 300.0
+offset_right = 464.0
+offset_bottom = 31.0
+text = "Browse"
+
+[node name="ChartPicker" type="FileDialog" parent="PathLineEdit/BrowseButton"]
+title = "Open a Directory"
+file_mode = 2
+access = 2
+
+[node name="ConfirmButton" type="Button" parent="PathLineEdit"]
+layout_mode = 0
+offset_left = 466.0
+offset_right = 630.0
+offset_bottom = 31.0
+text = "Ok!"
+
+[connection signal="dir_selected" from="PathLineEdit/BrowseButton/ChartPicker" to="PathLineEdit" method="_on_chart_picker_dir_selected"]
