@@ -18,6 +18,7 @@ offset_bottom = 31.0
 text = "Browse"
 
 [node name="ChartPicker" type="FileDialog" parent="PathLineEdit/BrowseButton"]
+oversampling_override = 1.0
 title = "Open a Directory"
 file_mode = 2
 access = 2
